@@ -50,7 +50,7 @@ table {
 /*=========== Begin Actual Stylesheet ==============*/
 
 a, a:link, a:visited {
-	color:#fff;
+	color:#D70000;
 	text-decoration:none;
 	border-bottom: 1px dotted;
 }
@@ -60,39 +60,41 @@ a:hover {
 }
 
 body {
-	background-color:#FFF;
+	background: url('bg.jpg') repeat 50% 15% #FFF;
 	width:400px;
 	position:absolute;
 	left:50%;
 	margin-left:-200px;
-	top:20%;
+	top:10%;
 	font-size:62.5%;
 }
 
 header,div,article {
 	font-size: 1.3em;
-	background:#7D0000;
-	padding:2em;
+	background-color: rgb(255,255,255);
+	background-color: rgba(255, 255, 255, 0.9);
+	padding:2em 2em 1em;
 	margin: 0 0 30px 0;
-	color:#FFF;
+	color:#D70000;
 }
 
 h1, h2, h3 {
 	margin:0.3em 0 0.5em 0;
+	color: rgb(255,255,255);
+	color: rgba(255, 255, 255, 0.8);
 }
 
 h1 {
 	font-size:8.0em;
 	text-align:center;
-	color:#7D0000;
 }
 h2 {
 	font-size:3.5em;
-	color:#7D0000;
 	text-align:right;
 	margin-bottom:-4px;
 }
 
 p {
 	line-height:2em;
+	margin: 0 0 1em 0; 
 }
