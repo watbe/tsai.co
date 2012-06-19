@@ -47,8 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+/*=========== Begin Actual Stylesheet ==============*/
+
+a, a:link, a:visited {
+	color:#fff;
+	text-decoration:none;
+	border-bottom: 1px dotted;
+}
+
+a:hover {
+	border-bottom:1px solid;
+}
+
 body {
-	background-color:#313131;
+	background-color:#FFF;
 	width:400px;
 	position:absolute;
 	left:50%;
@@ -59,11 +71,20 @@ body {
 
 header,div,article {
 	font-size: 1.3em;
-	background:#eee;
-	padding:10px;
+	background:#7D0000;
+	padding:2em;
 	margin: 0 0 30px 0;
+	color:#FFF;
+}
+
+h1, h2, h3 {
+	margin:0.3em 0 0.5em 0;
 }
 
 h1 {
+	font-size:3.0em;
+	text-align:center;
+}
+h2 {
 	font-size:2.0em;
 }
