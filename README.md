@@ -1,4 +1,4 @@
 tsai.co
 =======
 
-Personal Website
+This is a repository for my personal public facing splash page.
